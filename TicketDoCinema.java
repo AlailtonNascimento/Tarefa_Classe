@@ -1,7 +1,7 @@
 /**
  * usei o javadoc para incluir este comentário.
  */
-public class Cinema {
+public class TicketDoCinema {
     public String filme;
     private String cadeira;
     private String sala;
@@ -51,17 +51,17 @@ public class Cinema {
 
     public static void main (String args[]){
 
-        Cinema cinema = new Cinema();
-        cinema.setFilme("Filme: Avengers - Ultimate");
-        System.out.println(cinema.filme);
-        cinema.setSala("Sala: 4");
-        System.out.println(cinema.sala);
-        cinema.setCadeira("Cadeira: 55");
-        System.out.println(cinema.cadeira);
-        cinema.setHorarioFilme("Duração: 02:15");
-        System.out.println(cinema.horarioFilme);
-        cinema.setPreco("Preço: R$ 24");
-        System.out.println(cinema.preco);
+        TicketDoCinema ticketDoCinema = new TicketDoCinema();
+        ticketDoCinema.setFilme("Filme: Avengers - Ultimate");
+        System.out.println(ticketDoCinema.filme);
+        ticketDoCinema.setSala("Sala: 4");
+        System.out.println(ticketDoCinema.sala);
+        ticketDoCinema.setCadeira("Cadeira: 55");
+        System.out.println(ticketDoCinema.cadeira);
+        ticketDoCinema.setHorarioFilme("Hora: 20:15");
+        System.out.println(ticketDoCinema.horarioFilme);
+        ticketDoCinema.setPreco("Preço: R$ 24");
+        System.out.println(ticketDoCinema.preco);
 
     }
 }
